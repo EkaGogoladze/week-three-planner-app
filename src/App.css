@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body{
+  background-color: #FFF5E4;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app{
+  border: 1px solid #850E35;
+  border-radius: 25px;
   min-height: 100vh;
+  width: 350px;
+  margin: 10px auto;
+}
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  width: 280px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-container{
+  display: flex;
+  justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  padding: 4px 12px 4px 12px;
+  border: none;
+  font-size: 22px;
+  border-radius: 35px;
+  font-family: 'Caveat', cursive; 
+  font-weight: bold; 
+}
+.add{
+    background-color: #42855B;
+}
+.delete{
+  background-color: #850E35;
+}
+input{
+  border: none;
+  padding: 6px;
+  font-size: 26px;
+  font-family: 'Caveat', cursive;
+}
+.crossed{
+  text-decoration:line-through 2px #850E35
+}
+ul, li{
+  list-style-type: none;
+  font-size: 28px;
+  font-family: 'Caveat', cursive;
+}
+h1, h2{
+  text-align: center;
+  margin:0;
+  font-family: 'Caveat', cursive;
+}
+h2{
+  font-size: 32px;
+}
+.div{
+  background-color: #f5c5c5;
+  margin: 16px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 6px #850E35;
 }
